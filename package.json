@@ -1,0 +1,22 @@
+{
+  "name": "post-css-demo",
+  "version": "1.0.0",
+  "description": "PostCSS configuration",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/styles.css --dir dist --watch"
+  },
+  "keywords": [],
+  "author": "Craig Webb",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-preset-env": "^7.8.2"
+  },
+  "dependencies": {
+    "postcss-svgo": "^5.1.0"
+  }
+}

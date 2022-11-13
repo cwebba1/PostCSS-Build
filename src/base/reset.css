@@ -1,0 +1,23 @@
+
+/* reset.css */
+@custom-media --fart-mobile (min-width:30rem);
+
+@media (--fart-mobile) {
+    div.perfect {
+        background:hotpink;
+    }
+
+}
+
+div.perfect {
+    background:lightseagreen;
+}
+
+div {
+    background:pink;
+    & .title {color:green;}
+}
+
+
+
+
